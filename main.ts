@@ -52,5 +52,4 @@ async function runFetch(apiUrl) {
   return validatedData;
 }
 
-console.log(await runFetch("https://api.sampleapis.com/beers/ale"));
 export default runFetch;
